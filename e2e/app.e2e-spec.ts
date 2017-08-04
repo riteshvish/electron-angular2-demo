@@ -1,14 +1,14 @@
-import { ElectronAngular2DemoPage } from './app.po';
+import { SbAdminCliUpdatePage } from './app.po';
 
-describe('electron-angular2-demo App', () => {
-  let page: ElectronAngular2DemoPage;
+describe('sb-admin-cli-update App', () => {
+  let page: SbAdminCliUpdatePage;
 
   beforeEach(() => {
-    page = new ElectronAngular2DemoPage();
+    page = new SbAdminCliUpdatePage();
   });
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!!');
   });
 });
